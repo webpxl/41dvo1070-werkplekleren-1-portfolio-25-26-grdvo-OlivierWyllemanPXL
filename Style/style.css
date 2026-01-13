@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ------ R O O T  ------ */
 
 :root {
@@ -11,8 +15,8 @@
     --OW-section-head-title-weight: 700;
     --OW-main-blue: #3650DC;
     --OW-dark-blue: #00008b;
+    --OW-gray: #F8F7F7;
     --OW-page-category-title-color: #898989;
-    /* --OW-main-spacing: 1.5rem 9.5rem 0rem; */
     --OW-main-spacing: 1.5% 8.5% 0%;
 }
 
@@ -63,6 +67,7 @@ p {
     font-weight: 300;
     color: #393939;
     line-height: 1.7;
+    font-size: 18px;
 }
 
 a {
@@ -259,19 +264,94 @@ ul li a:hover {
     animation: moveLeftAndRight 1s ease infinite;
 }
 
-.home-scroll-box  {
-    position: absolute;
-    bottom: 0;
-    right: 15rem;
-
-}
-
-.home-scroll-box-mouse {
-    animation: homeMouseUpDown 1.5s infinite;
-}
-
 .socials-logo:hover {
     fill: blue;
+}
+
+/* ------ S E R V I C E S ------ */
+
+.container-landing-text {
+    max-width: 33.3333rem;
+    margin-bottom: 1.56rem;
+}
+
+/* ------ A B O U T ------ */
+
+.main-spacing {
+    padding: var(--OW-main-spacing);
+}
+
+.page-category-title, .page-title {
+    color: var(--OW-page-category-title-color);
+    text-transform: uppercase;
+    font-family: var(--OW   -main-font);
+}
+
+.page-title, .page-subtitle {
+    color: #000000;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.page-subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+
+.about-us-description {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 6%;
+}
+
+.about-us-description a {
+    margin-top: 20px;
+}
+
+.about-us-description-image {
+    max-width: 100%;
+    width: 120rem;
+    height: auto;
+}
+
+.about-us-our-values {
+    background-color: var(--OW-gray);
+}
+
+.valuenumber {
+    font-family: var(--OW-main-font);
+    font-size: 4rem;
+    color: var(--OW-main-blue);
+    border: 2px solid var(--OW-main-blue);
+    border-radius: 99px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 12%;
+}
+
+.coding-languages {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.coding-languages img {
+    width: 50%;
+    height: auto;
 }
 
 /* ------ F O O T E R ------ */

@@ -192,6 +192,11 @@ ul li a:hover {
     padding: var(--OW-main-spacing);
 }
 
+.container-landing-text {
+    max-width: 33.3333rem;
+    margin-bottom: 1.56rem;
+}
+
 .home-landing-men-discussing {
     max-width: 100%;
     width: 430px;
@@ -268,11 +273,36 @@ ul li a:hover {
     fill: blue;
 }
 
-/* ------ S E R V I C E S ------ */
+/* ------ P R O J E C T S ------ */
 
-.container-landing-text {
-    max-width: 33.3333rem;
-    margin-bottom: 1.56rem;
+.container-projects {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    row-gap: 5%;
+    margin-top: 2%;
+}
+
+.single-project-cart {
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.single-project-cart:hover {
+    background-color: #F8F7F7;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.single-project-image {
+    width: 100%;
+}
+
+.single-project-text {
+    padding: 1rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* ------ A B O U T ------ */
@@ -362,12 +392,12 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 6.5rem 35rem 2rem 35rem ;
+    margin: 6.5rem 35rem 0rem 35rem ;
 }
 
 .footer-container img {
     max-width: 100%;
-    width: 164px;
+    width: 115px;
     height: auto;
 }
 

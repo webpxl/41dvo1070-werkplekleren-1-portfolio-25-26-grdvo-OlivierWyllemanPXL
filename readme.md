@@ -4,10 +4,10 @@ Dit project bevat een portfolio website. Er word gebruik gemaakt van HTML, CSS e
 
 ## Gebruikte bronnen
 
-> Github Copilot
-> Google Maps
-> Google fonts
-> FontAwesome
-> Bootstrap
-> Iconify
-> ...
+- Github Copilot
+- Google Maps
+- Google fonts
+- FontAwesome
+- Bootstrap
+- Iconify
+- ...

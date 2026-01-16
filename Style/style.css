@@ -146,7 +146,7 @@ ul li a:hover {
 }
 
 .open {
-    font-size: 45px;
+    font-size: 39px;
     font-family: var(--OW-main-font);
     font-weight: 500;
     padding-left: 5px;
@@ -168,7 +168,7 @@ ul li a:hover {
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 28px;
     color: #000000;
     display: block; 
     transition: 0.3s; 
@@ -475,3 +475,131 @@ ul li a:hover {
     flex-direction: column;
     gap: 2rem;
 }
+
+@media screen and (max-width: 1226px) {
+
+    header img {
+        width: 50px;
+    }
+
+    .nav-items-mobile {
+        display: block;
+    }
+
+    .nav-items-desktop {
+        display: none;
+    }
+
+    .footer-container {
+        margin: 5rem 1rem 1rem;
+    }
+
+    .footer-icons-socials {
+        padding-left: 0;
+    }
+
+    .footer-container img {
+        width: 5rem;
+    }
+
+    .footer-nav-items {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .container-contact {
+        padding: 0;
+        row-gap: 0.5rem;
+    }
+
+    .project-image img {
+        max-width: 300px;
+    }
+
+    .container-projects h1 {
+        font-size: 1.5rem;
+    }
+
+    .container-projects {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .single-project-text {
+        gap: 0;
+    }
+
+    .home-landing {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .about-us-description-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-landing-col1-square {
+        display: none;
+    }
+
+    .home-landing-col2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .home-landing-col2-text {
+        flex-direction: column;
+    }
+
+    .home-landing-col2-text-socials {
+        flex-direction: row;
+        gap: 1rem;
+        margin: 20px 0px;
+    }
+
+    .about-grid, .container-projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container-projects {
+        row-gap: 2%;
+    }
+
+
+    .coding-languages, .about-us-description {
+        flex-direction: column;
+    }
+
+    .coding-languages {
+        gap: 50px;
+        margin-left: 30%;
+    }
+
+    .about-us-description {
+        row-gap: 50px;
+    }
+
+    .page-subtitle {
+        font-size: 20px;
+    }
+
+    .main-spacing {
+        padding: 1.5% 7.5% 0%;
+    }
+}
+
